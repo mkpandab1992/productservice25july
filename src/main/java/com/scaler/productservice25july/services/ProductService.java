@@ -6,7 +6,7 @@ import com.scaler.productservice25july.models.Product;
 import java.util.List;
 
 public interface ProductService {
-    public Product createProduct(Product  product);
+    Product createProduct(Product  product);
 
     List<Product> getAllProducts();
 
